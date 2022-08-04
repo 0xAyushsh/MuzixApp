@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  body {
+    background: #ecf0f3;
+  }
+  .main {
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .wrapper,
+  .wrapper .img-area,
+  .social-icons a,
+  .buttons button {
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  }
+  .wrapper {
+    position: relative;
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    .wrapper {
+      width: 95vw;
+    }
+  }  
+
+  .inner-area img {
+    height: 100%;
+    width: 100%;
+  
+    object-fit: cover;
+  }
+  .wrapper .name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #31344b;
+    margin-right: 10px;
+  }
+  .wrapper .about {
+    color: #44476a;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .wrapper .social-icons {
+    margin: 15px 0 25px 0;
+  }
+  .social-icons a {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .social-icons a:hover::before,
+  .wrapper .icon:hover::before,
+  .buttons button:hover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+  }
+  .buttons button:hover:before {
+    z-index: -1;
+    border-radius: 5px;
+  }
+  .social-icons a i {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+  }
+  .social-icons a.fb i {
+    color: #4267b2;
+  }
+  .social-icons a.twitter i {
+    color: #1da1f2;
+  }
+  .social-icons a.insta i {
+    color: #e1306c;
+  }
+  .social-icons a.yt i {
+    color: #ff0000;
+  }
+  .wrapper .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .buttons button {
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    color: #31344b;
+    font-size: 11pt;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .buttons button:first-child {
+    margin-right: 10px;
+  }
+  .buttons button:last-child {
+    margin-left: 10px;
+  }
+
+  .row:first-child::before {
+    background: none;
+  }
+
+  .content-row {
+    padding: 15px 15px 0px 15px;
+  }
+
+  .detail-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+  }

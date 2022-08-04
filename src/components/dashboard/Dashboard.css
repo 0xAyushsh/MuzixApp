@@ -1,0 +1,19 @@
+.dashboard-body{
+
+    background-image: url('./bgimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.my-nav{
+    background-color: brown;
+}
+
+.my-btn{
+    width: 50vw;
+    background-color: black;
+}
+.my-btn.active{
+    background-color: rgb(76, 139, 206);
+}

@@ -1,0 +1,64 @@
+{
+  "Songs": [
+    {
+      "username": "a@a.com",
+      "name": "Fancy Like",
+      "albumName": "Country Stuff The Album",
+      "artistName": "Walker Hayes",
+      "previewURL": "https://listen.hs.llnwd.net/g3/prvw/2/9/1/5/8/2481985192.mp3",
+      "id": "tra.626211054a@a.com"
+    },
+    {
+      "username": "a@a.com",
+      "name": "Easy On Me",
+      "albumName": "Easy On Me",
+      "artistName": "Adele",
+      "previewURL": "https://listen.hs.llnwd.net/g3/prvw/4/9/5/5/8/2465385594.mp3",
+      "id": "tra.618869994a@a.com"
+    },
+    {
+      "username": "a@a.com",
+      "name": "We Don't Talk About Bruno (From \"Encanto\"/Soundtrack Version)",
+      "albumName": "Encanto (Original Motion Picture Soundtrack)",
+      "artistName": "Carolina Gaitán",
+      "previewURL": "https://listen.hs.llnwd.net/g3/prvw/7/8/6/1/5/2483451687.mp3",
+      "id": "tra.626878022a@a.com"
+    },
+    {
+      "username": "a@a.com",
+      "name": "Fancy Like",
+      "albumName": "Country Stuff The Album",
+      "artistName": "Walker Hayes",
+      "previewURL": "https://listen.hs.llnwd.net/g3/prvw/2/9/1/5/8/2481985192.mp3",
+      "id": "tra.626211054a@a.coma@a.com"
+    },
+    {
+      "username": "a@a.com",
+      "name": "Easy On Me",
+      "albumName": "Easy On Me",
+      "artistName": "Adele",
+      "previewURL": "https://listen.hs.llnwd.net/g3/prvw/4/9/5/5/8/2465385594.mp3",
+      "id": "tra.618869994a@a.coma@a.com"
+    }
+  ],
+  "Users": [
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "id": "a@a.com",
+      "password": "a"
+    },
+    {
+      "firstName": "b",
+      "lastName": "b",
+      "id": "b@b.com",
+      "password": "b"
+    },
+    {
+      "firstName": "c",
+      "lastName": "c",
+      "id": "c@c.com",
+      "password": "c"
+    }
+  ]
+}
